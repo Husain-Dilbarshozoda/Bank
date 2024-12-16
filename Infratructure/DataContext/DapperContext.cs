@@ -12,7 +12,7 @@ public interface IContext
 public class DapperContext : IContext
 {
     private readonly string connectionString =
-        "Server=localhost; Port = 5432; Database = bank_dapper_db; User Id = postgres; Password = 12345;";
+        "Server=localhost; Port = 5432; Database = bank_dapper_db; Username = postgres; Password = 501040477.tj;";
 
     public IDbConnection Connection()
     {
@@ -23,7 +23,7 @@ public class DapperContext : IContext
 public class SqlServerContext : IContext
 {
     private readonly string connectionString =
-        "Server=localhost; Port = 5432; Database = bank_dapper_db; User Id = postgres; Password = 12345;";
+        "Server=localhost; Port = 5432; Database = bank_dapper_db; Username = postgres; Password = 501040477.tj;";
 
     public IDbConnection  Connection()
     {
